@@ -1,5 +1,6 @@
 import * as React from "react"
 import type { HeadFC } from "gatsby"
+import { Layout } from '../components/Layout';
 
 const pageStyles = {
   color: "#232129",
@@ -139,16 +140,20 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <h1 className="text-3xl text-red-500 font-bold underline">
-        Hello world!
-      </h1>
+      <Layout>
+        <h1 className="text-3xl text-red-500 font-bold underline">
+          Hello world!
+        </h1>
+      </Layout>
       <h1 style={headingStyles}>
         Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
+        <br/>
+        <span
+          style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
+        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this
+        page
         update in real-time. 😎
       </p>
       <ul style={doclistStyles}>
