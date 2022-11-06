@@ -21,6 +21,7 @@
     "prettier:write": "prettier --write ."
   },
   "dependencies": {
+    "@gmjs/util": "0.0.160",
     "@headlessui/react": "1.7.4",
     "@heroicons/react": "2.0.13",
     "@types/luxon": "3.1.0",

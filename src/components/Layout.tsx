@@ -12,7 +12,7 @@ export function Layout({ children }: LayoutProps) {
       <div className="inset-y-0 flex min-w-[200px] w-64 flex-col">
         <div className="flex min-h-0 flex-1 flex-col bg-gray-800">
           <div className="flex flex-1 flex-col overflow-y-auto">
-            <NavigationList items={NAVIGATION} />
+            <NavigationList parentPath={''} items={NAVIGATION} />
           </div>
         </div>
       </div>
