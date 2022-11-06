@@ -3,7 +3,7 @@ import type { HeadFC } from "gatsby"
 import { Layout } from '../components/Layout';
 import ReactMarkdown from 'react-markdown';
 
-const content: string = `
+const content = `
 # This is a **title**
 
 Some text and \`some code\`.
