@@ -21,7 +21,7 @@ export default function IndexPage() {
       <h1 className="text-3xl text-red-500 font-bold underline">
         Hello world!
       </h1>
-      <ReactMarkdown>{content}</ReactMarkdown>
+      <ReactMarkdown className="markdown-body">{content}</ReactMarkdown>
     </Layout>
   );
 }

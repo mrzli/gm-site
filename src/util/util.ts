@@ -7,5 +7,11 @@ export function classNames(
 }
 
 export function joinPaths(...paths: readonly string[]): string {
-  return '/' + paths.map((p) => trim(p, '/')).join('/');
+  return (
+    '/' +
+    paths
+      .map((p) => trim(p, '/'))
+      .filter((p) => !!p)
+      .join('/')
+  );
 }
