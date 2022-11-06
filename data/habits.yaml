@@ -1,0 +1,18 @@
+- meta:
+    year: 2021
+- meta:
+    year: 2022
+
+#habits:
+#  - year: 2021
+#    months:
+#      - value: 10
+#        habits:
+#          - name: Something
+#            value: .Y.0..
+#  - year: 2022
+#    months:
+#      - value: 11
+#        habits:
+#          - name: Gym Exercise
+#            value: .Y.0..

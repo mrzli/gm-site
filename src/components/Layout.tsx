@@ -5,7 +5,6 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { classNames } from '../util/util';
-import ReactMarkdown from 'react-markdown';
 
 export interface NavigationItem {
   readonly name: string;
@@ -25,18 +24,6 @@ const navigation: readonly NavigationItem[] = [
 export interface LayoutProps {
   readonly children: React.ReactNode
 }
-
-const content: string = `
-# This is a **title**
-
-\`some code\`
-
-\`\`\`js
-import { ccc } from 'aaa';
-\`\`\`
-
-
-`;
 
 export function Layout({ children }: LayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -157,9 +144,6 @@ export function Layout({ children }: LayoutProps) {
               <h1
                 className="text-2xl font-semibold text-gray-900">Dashboard</h1>
             </div>
-            <ReactMarkdown>
-              {content}
-            </ReactMarkdown>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
               {children}
             </div>
