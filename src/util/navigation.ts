@@ -26,7 +26,12 @@ export const NAVIGATION: readonly NavigationItem[] = [
           {
             name: 'Atomic Habits',
             href: '/atomic-habits',
-            items: [],
+            items: [
+              {
+                name: 'Notes 1',
+                href: '/notes-1',
+              },
+            ],
           },
         ],
       },
