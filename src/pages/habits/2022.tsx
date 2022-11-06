@@ -34,7 +34,7 @@ const data: HabitYearData = {
           values: '//////',
         },
         {
-          name: 'Neck Exercise',
+          name: 'Neck Exercise (T/T/S)',
           values: '//////',
         },
       ],
