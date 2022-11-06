@@ -21,7 +21,7 @@ export function HabitRow({
   return (
     <>
       <div
-        className={'inline-flex justify-center align-center p-0'}
+        className={'inline-flex justify-start items-center px-2'}
         style={{ gridRowStart: row, gridColumnStart: 1 }}
       >
         {name}
@@ -29,7 +29,7 @@ export function HabitRow({
       {Array.from({ length: COUNT }).map((_v, i) => (
         <div
           key={i}
-          className={`habit-cell ${colors[i]}`}
+          className={`habit-cell inline-flex justify-center items-center ${colors[i]}`}
           style={{ gridRowStart: row, gridColumnStart: i + 2 }}
         />
       ))}

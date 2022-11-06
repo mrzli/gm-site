@@ -9,49 +9,32 @@ const data: HabitYearData = {
       month: 11,
       habits: [
         {
-          name: 'Habit 1',
-          values: '++--..00',
+          name: 'Go to Gym (M/W/F)',
+          values: '//////',
         },
         {
-          name: 'Habit 2',
-          values: '++--..00',
+          name: 'Home Exercise - Func (T/T/S)',
+          values: '//////',
         },
         {
-          name: 'Habit 3',
-          values: '++--..00',
+          name: 'Home Exercise - Func - Before 09:00',
+          values: '//////',
         },
         {
-          name: 'Habit 4',
-          values: '++--..00',
+          name: 'Running 3km (T/T/S)',
+          values: '////+/',
         },
         {
-          name: 'Habit 5',
-          values: '++--..00',
-        },
-      ],
-    },
-    {
-      month: 12,
-      habits: [
-        {
-          name: 'Habit 1',
-          values: '++--..00',
+          name: 'Running 5km (arb.)',
+          values: '////+/',
         },
         {
-          name: 'Habit 2',
-          values: '++--..00',
+          name: 'Running - Before 10:00',
+          values: '//////',
         },
         {
-          name: 'Habit 3',
-          values: '++--..00',
-        },
-        {
-          name: 'Habit 4',
-          values: '++--..00',
-        },
-        {
-          name: 'Habit 5',
-          values: '++--..00',
+          name: 'Neck Exercise',
+          values: '//////',
         },
       ],
     },

@@ -3,7 +3,7 @@ import { HabitMonthData } from '../util/types';
 import { HabitRow } from './HabitRow';
 import { DateTime } from 'luxon';
 import { classNames } from '../util/util';
-import { HabitHeader } from './HabitHeader';
+import { HabitHeader, HabitHeaderData } from './HabitHeader';
 
 export interface HabitMonthProps {
   readonly year: number;
@@ -28,7 +28,7 @@ export function HabitMonth({
             '[&>.habit-cell]:min-w-[32px] [&>*]:border-t [&>*]:border-l border-b border-r'
           )}
           style={{
-            gridTemplateColumns: 'minmax(200px, 200px) repeat(32, 32px)',
+            gridTemplateColumns: 'minmax(200px, 400px) repeat(32, 32px)',
             gridAutoRows: 'minmax(32px, 1fr)',
           }}
         >
@@ -51,8 +51,8 @@ export function HabitMonth({
 
 export interface DateInfo {
   readonly monthStr: string;
-  readonly weekdayHeaders: readonly string[];
-  readonly dayHeaders: readonly string[];
+  readonly weekdayHeaders: readonly HabitHeaderData[];
+  readonly dayHeaders: readonly HabitHeaderData[];
 }
 
 function getDateInfo(year: number, month: number): DateInfo {
@@ -61,25 +61,26 @@ function getDateInfo(year: number, month: number): DateInfo {
   const lastDayOfMonth = dateTime.endOf('month').day;
   const firstDayOfMonthWeekdayIndex = dateTime.weekday - 1;
 
-  const weekdayHeaders: string[] = [];
+  const weekdayHeaders: (number | undefined)[] = [];
   const dayHeaders: string[] = [];
 
   for (let i = 0; i < 33; i++) {
     if (i === 0 || i > lastDayOfMonth) {
-      weekdayHeaders.push('');
+      weekdayHeaders.push(undefined);
       dayHeaders.push('');
     } else {
       dayHeaders.push(i.toString());
-      weekdayHeaders.push(
-        WEEKDAY_INDEX_TO_CHAR[(firstDayOfMonthWeekdayIndex + i - 1) % 7]
-      );
+      weekdayHeaders.push((firstDayOfMonthWeekdayIndex + i - 1) % 7);
     }
   }
 
   return {
     monthStr,
-    weekdayHeaders,
-    dayHeaders,
+    weekdayHeaders: weekdayHeaders.map((v) => ({
+      text: v !== undefined ? WEEKDAY_INDEX_TO_CHAR[v] : '',
+      color: v && v >= 5 ? 'bg-slate-200' : undefined,
+    })),
+    dayHeaders: dayHeaders.map((v) => ({ text: v })),
   };
 }
 
