@@ -11,6 +11,4 @@ export default function Notes1(): React.ReactElement {
 }
 
 const content = `
-# Atomic Habits
-
 `;
