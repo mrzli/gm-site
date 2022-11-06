@@ -1,3 +1,9 @@
+export interface NavigationItem {
+  readonly name: string;
+  readonly href?: string;
+  readonly items?: readonly NavigationItem[];
+}
+
 export interface HabitYearData {
   readonly year: number;
   readonly months: readonly HabitMonthData[];

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HabitYearData } from '../util/types';
+import { HabitYearData } from '../types/types';
 import { HabitMonth } from './HabitMonth';
 
 export interface HabitYearProps {

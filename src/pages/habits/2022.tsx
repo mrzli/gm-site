@@ -1,6 +1,7 @@
 import React from 'react';
-import { HabitYearData } from '../../util/types';
+import { HabitYearData } from '../../types/types';
 import { HabitYear } from '../../components/HabitYear';
+import { Layout } from '../../components/Layout';
 
 const data: HabitYearData = {
   year: 2022,
@@ -43,8 +44,8 @@ const data: HabitYearData = {
 
 export default function Habit2022(): React.ReactElement {
   return (
-    <div>
+    <Layout>
       <HabitYear data={data} />
-    </div>
+    </Layout>
   );
 }

@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { HabitData } from '../util/types';
+import { HabitData } from '../types/types';
 
 export interface HabitRowProps {
   readonly row: number;

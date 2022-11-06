@@ -1,6 +1,4 @@
 import React from 'react';
-import { HabitData } from '../util/types';
-import { DateTime } from 'luxon';
 import { classNames } from '../util/util';
 
 export interface HabitHeaderData {
@@ -17,8 +15,6 @@ export function HabitHeader({
   row,
   values,
 }: HabitHeaderProps): React.ReactElement {
-  console.log(values);
-
   return (
     <>
       {values.map((v, i) => (

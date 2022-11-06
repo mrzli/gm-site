@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { HabitMonthData } from '../util/types';
+import { HabitMonthData } from '../types/types';
 import { HabitRow } from './HabitRow';
 import { DateTime } from 'luxon';
 import { classNames } from '../util/util';
