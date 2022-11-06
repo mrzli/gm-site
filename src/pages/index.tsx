@@ -1,5 +1,5 @@
-import React from "react"
-import type { HeadFC } from "gatsby"
+import React from 'react';
+import type { HeadFC } from 'gatsby';
 import { Layout } from '../components/Layout';
 import ReactMarkdown from 'react-markdown';
 
@@ -21,11 +21,9 @@ export default function IndexPage() {
       <h1 className="text-3xl text-red-500 font-bold underline">
         Hello world!
       </h1>
-      <ReactMarkdown>
-        {content}
-      </ReactMarkdown>
+      <ReactMarkdown>{content}</ReactMarkdown>
     </Layout>
-  )
+  );
 }
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>Home Page</title>;
