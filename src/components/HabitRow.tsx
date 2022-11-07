@@ -46,20 +46,23 @@ const COUNT = 32;
 
 const VALUE_NOTHING = '/';
 const VALUE_SUCCESS = '+';
-const VALUE_OFF_DAY = '.';
-const VALUE_FAILED = '-';
+const VALUE_OFF_DAY_SUCCESS = '.';
+const VALUE_FAILURE = '-';
+const VALUE_OFF_DAY_FAILURE = ',';
 const VALUE_SKIPPED = '0';
 
 const COLOR_NOTHING = 'bg-white';
 const COLOR_SUCCESS = 'bg-emerald-400';
-const COLOR_OFF_DAY = 'bg-green-300';
-const COLOR_FAILED = 'bg-red-500';
+const COLOR_OFF_DAY_SUCCESS = 'bg-green-300';
+const COLOR_FAILURE = 'bg-red-500';
+const COLOR_OFF_DAY_FAILURE = 'bg-red-300';
 const COLOR_SKIPPED = 'bg-gray-300';
 
 const VALUE_TO_COLOR: ReadonlyMap<string, string> = new Map<string, string>([
   [VALUE_NOTHING, COLOR_NOTHING],
   [VALUE_SUCCESS, COLOR_SUCCESS],
-  [VALUE_OFF_DAY, COLOR_OFF_DAY],
-  [VALUE_FAILED, COLOR_FAILED],
+  [VALUE_OFF_DAY_SUCCESS, COLOR_OFF_DAY_SUCCESS],
+  [VALUE_FAILURE, COLOR_FAILURE],
+  [VALUE_OFF_DAY_FAILURE, COLOR_OFF_DAY_FAILURE],
   [VALUE_SKIPPED, COLOR_SKIPPED],
 ]);

@@ -20,7 +20,7 @@ export function HabitMonth({
 
   return (
     <div>
-      <div>{dateInfo.monthStr}</div>
+      <div className={'m-2 text-lg font-semibold'}>{dateInfo.monthStr}</div>
       <div className={'flex'}>
         <div
           className={classNames(

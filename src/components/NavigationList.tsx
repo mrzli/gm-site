@@ -39,7 +39,7 @@ function NavigationListItem({
     <div className={'flex flex-col'}>
       <div>{name}</div>
       {items && items.length > 0 && (
-        <div className={'ml-1 mt-2'}>
+        <div className={'ml-1'}>
           <NavigationList
             parentPath={joinPaths(parentPath, href)}
             items={items}
@@ -64,5 +64,5 @@ const IS_CURRENT = false;
 
 const ITEM_CLASS = classNames(
   IS_CURRENT ? 'bg-gray-900 text-white' : 'text-gray-300',
-  'group flex items-center px-2 py-2 text-sm font-medium'
+  'group flex items-center px-2 text-sm font-medium'
 );
