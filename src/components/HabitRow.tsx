@@ -38,7 +38,7 @@ export function HabitRow({
 }
 
 function toColors(values: string): readonly string[] {
-  values = values.padEnd(32, VALUE_NOTHING);
+  values = values.padEnd(32, VALUE_NOT_YET);
   return values.split('').map((v) => VALUE_TO_COLOR.get(v)!);
 }
 
@@ -50,13 +50,15 @@ const VALUE_OFF_DAY_SUCCESS = '.';
 const VALUE_FAILURE = '-';
 const VALUE_OFF_DAY_FAILURE = ',';
 const VALUE_SKIPPED = '0';
+const VALUE_NOT_YET = '~';
 
-const COLOR_NOTHING = 'bg-white';
+const COLOR_NOTHING = 'bg-gray-100';
 const COLOR_SUCCESS = 'bg-emerald-400';
 const COLOR_OFF_DAY_SUCCESS = 'bg-green-300';
 const COLOR_FAILURE = 'bg-red-500';
 const COLOR_OFF_DAY_FAILURE = 'bg-red-300';
 const COLOR_SKIPPED = 'bg-gray-300';
+const COLOR_NOT_YET = 'bg-white';
 
 const VALUE_TO_COLOR: ReadonlyMap<string, string> = new Map<string, string>([
   [VALUE_NOTHING, COLOR_NOTHING],
@@ -65,4 +67,5 @@ const VALUE_TO_COLOR: ReadonlyMap<string, string> = new Map<string, string>([
   [VALUE_FAILURE, COLOR_FAILURE],
   [VALUE_OFF_DAY_FAILURE, COLOR_OFF_DAY_FAILURE],
   [VALUE_SKIPPED, COLOR_SKIPPED],
+  [VALUE_NOT_YET, COLOR_NOT_YET],
 ]);
