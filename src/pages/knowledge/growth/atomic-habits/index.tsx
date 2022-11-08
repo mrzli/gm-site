@@ -13,5 +13,5 @@ export default function BookAtomicHabits(): React.ReactElement {
 const content = `
 Here are my notes about a book called 'Atomic Habits' by James Clear.
 
-[Here](https://jamesclear.com/atomic-habits) is the link.
+[https://jamesclear.com/atomic-habits](https://jamesclear.com/atomic-habits).
 `;

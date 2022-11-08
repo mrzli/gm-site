@@ -2,7 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Layout } from '../../../../components/Layout';
 
-export default function Notes3(): React.ReactElement {
+export default function BookAtomicHabitsNotes3(): React.ReactElement {
   return (
     <Layout>
       <ReactMarkdown className="markdown-body">{content}</ReactMarkdown>

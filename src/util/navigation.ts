@@ -56,6 +56,32 @@ export const NAVIGATION: readonly NavigationItem[] = [
               },
             ],
           },
+          {
+            name: 'Range',
+            href: '/range',
+            items: [
+              {
+                name: 'Notes 1',
+                href: '/notes-1',
+              },
+              {
+                name: 'Notes 2',
+                href: '/notes-2',
+              },
+              {
+                name: 'Notes 3',
+                href: '/notes-3',
+              },
+              {
+                name: 'Notes 4',
+                href: '/notes-4',
+              },
+              {
+                name: 'Notes 5',
+                href: '/notes-5',
+              },
+            ],
+          },
         ],
       },
     ],
