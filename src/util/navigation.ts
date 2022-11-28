@@ -3,6 +3,17 @@ import { NavigationItem } from '../types/types';
 export const NAVIGATION: readonly NavigationItem[] = [
   { name: 'Home', href: '/' },
   {
+    name: 'Principles',
+    href: '/principles',
+    disabled: true,
+    items: [
+      {
+        name: 'Work',
+        href: '/work',
+      },
+    ],
+  },
+  {
     name: 'Habits',
     href: '/habits',
     disabled: true,
