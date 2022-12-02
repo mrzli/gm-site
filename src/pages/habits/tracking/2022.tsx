@@ -88,7 +88,7 @@ const data: HabitYearData = {
       ],
     },
     {
-      month: 11,
+      month: 12,
       habits: [
         {
           name: 'Test Habit',
@@ -96,7 +96,7 @@ const data: HabitYearData = {
         },
         {
           name: 'Get out of Bed by 08:00',
-          values: '-',
+          values: '-+',
         },
         {
           name: 'No Sweets',
@@ -140,31 +140,31 @@ const data: HabitYearData = {
         },
         {
           name: 'Go to Latina Dance Class',
-          values: '=',
+          values: '==',
         },
         {
           name: 'Get to Latina Dance Class on Time',
-          values: '=',
+          values: '==',
         },
         {
           name: 'Go to Gloria Dance Class 1',
-          values: '.',
+          values: '..',
         },
         {
           name: 'Get to Gloria Dance Class 1 on Time',
-          values: ',',
+          values: ',,',
         },
         {
           name: 'Go to Gloria Dance Class 2',
-          values: '.',
+          values: '..',
         },
         {
           name: 'Get to Gloria Dance Class 2 on Time',
-          values: '.',
+          values: '..',
         },
         {
           name: 'Write Down Journal Same Day Or Next Morning',
-          values: '',
+          values: '+',
         },
       ],
     },
