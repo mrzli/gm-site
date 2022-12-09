@@ -92,79 +92,87 @@ const data: HabitYearData = {
       habits: [
         {
           name: 'Test Habit',
-          values: '-+',
+          values: '-++++---',
         },
         {
           name: 'Get out of Bed by 08:00',
-          values: '-+-',
+          values: '-+--+-+--',
         },
         {
           name: 'No Sweets',
-          values: '++',
+          values: '++++++++',
         },
         {
           name: 'No Unhealthy Food',
-          values: '+-',
+          values: '+---+--+',
         },
         {
           name: 'Go to Gym (M/W/F)',
-          values: '.+',
+          values: '.+..+.+.',
         },
         {
           name: 'Running 3km (T/T/S)',
-          values: '-,',
+          values: '-,-,,-,-',
         },
         {
           name: 'Running 5km (T/T/S)',
-          values: '-,',
+          values: '-,-,,-,-',
         },
         {
           name: 'Running - Before 09:00',
-          values: '-,',
+          values: '-,-,,-,-',
         },
         {
           name: 'Stretch (T/T/S)',
-          values: '-,',
+          values: '-,-,,-,-',
         },
         {
           name: 'Stretch - Before 09:30',
-          values: '-,',
+          values: '-,-,,-,-',
         },
         {
           name: 'Neck Exercise (S)',
-          values: '..',
+          values: '...-+...',
         },
         {
           name: 'Neck Exercise - Before 10:00',
-          values: ',,',
+          values: ',,,-,,,,',
         },
         {
           name: 'Go to Latina Dance Class',
-          values: '===',
+          values: '====+...',
         },
         {
           name: 'Get to Latina Dance Class on Time',
-          values: '===',
+          values: '====-,,,',
         },
         {
           name: 'Go to Gloria Dance Class 1',
-          values: '...',
+          values: '......//',
         },
         {
           name: 'Get to Gloria Dance Class 1 on Time',
-          values: ',,,',
+          values: ',,,,,,//',
         },
         {
           name: 'Go to Gloria Dance Class 2',
-          values: '...',
+          values: '......//',
         },
         {
           name: 'Get to Gloria Dance Class 2 on Time',
-          values: '...',
+          values: '......//',
+        },
+        {
+          name: 'Get to Gloria Winter Intensive',
+          values: '/////+.+',
+        },
+        {
+          name: 'Get to Gloria Winter Intensive on Time',
+          values: '/////-,-',
         },
         {
           name: 'Write Down Journal Same Day Or Next Morning',
-          values: '+-',
+          values: '+-++-+-+',
         },
       ],
     },
