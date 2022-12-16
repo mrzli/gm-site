@@ -96,11 +96,11 @@ const data: HabitYearData = {
         },
         {
           name: 'Get out of Bed by 08:00',
-          values: '-+--+-+----+-+-',
+          values: '-+--+-+----+-+-+',
         },
         {
           name: 'No Sweets',
-          values: '++++++++--+--++',
+          values: '++++++++--+--+-',
         },
         {
           name: 'No Unhealthy Food',
@@ -108,15 +108,15 @@ const data: HabitYearData = {
         },
         {
           name: 'Go to Gym (M/W/F)',
-          values: '.+..+.+.+..+.+.',
+          values: '.+..+.+.+..+.+.+',
         },
         {
           name: 'Running 3km (T/T/S)',
-          values: '-,-,,-,-+-,,-,',
+          values: '-,-,,-,-+-,,-,-',
         },
         {
           name: 'Running 5km (T/T/S)',
-          values: '-,-,,-,-+-,,-,',
+          values: '-,-,,-,-+-,,-,-',
         },
         {
           name: 'Running - Before 09:00',
@@ -124,7 +124,7 @@ const data: HabitYearData = {
         },
         {
           name: 'Stretch (T/T/S)',
-          values: '-,-,,-,-+-,,-,',
+          values: '-,-,,-,-+-,,-,-',
         },
         {
           name: 'Stretch - Before 09:30',
@@ -132,7 +132,7 @@ const data: HabitYearData = {
         },
         {
           name: 'Neck Exercise (S)',
-          values: '...-+......-,,',
+          values: '...-+......-,,,',
         },
         {
           name: 'Neck Exercise - Before 10:00',
@@ -164,15 +164,15 @@ const data: HabitYearData = {
         },
         {
           name: 'Get to Gloria Winter Intensive',
-          values: '/////+.+.....+',
+          values: '/////+.+.....++',
         },
         {
           name: 'Get to Gloria Winter Intensive on Time',
-          values: '/////-,-,,,,,-',
+          values: '/////-,-,,,,,--',
         },
         {
           name: 'Write Down Journal Same Day Or Next Morning',
-          values: '+-++-+-+-+-++-',
+          values: '+-++-+-+-+-++-+',
         },
       ],
     },
