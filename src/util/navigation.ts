@@ -27,6 +27,10 @@ export const NAVIGATION: readonly NavigationItem[] = [
             name: '2022',
             href: '/2022',
           },
+          {
+            name: '2023',
+            href: '/2023',
+          },
         ],
       },
     ],
