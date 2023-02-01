@@ -11,71 +11,144 @@ const data: HabitYearData = {
       habits: [
         {
           name: 'Test Habit',
-          values: '---------+--+++------+-',
+          values: '---------+--+++------+---------',
         },
         {
           name: 'Get out of Bed by 09:00',
-          values: '---+-+--+-++++-+-+--000',
+          values: '---+-+--+-++++-+-+--000000000+-',
         },
         {
           name: 'No Sweets',
-          values: '++++++++++++++--+++++++',
+          values: '++++++++++++++--+++++++++++++++',
         },
         {
           name: 'No Unhealthy Food',
-          values: '++-++++-+-+---++++-----',
+          values: '++-++++-+-+---++++------+--++--',
         },
         {
           name: 'Go to Gym (M/W/F)',
-          values: '///+.+..+.+.+..+.+.0==0',
+          values: '///+.+..+.+.+..+.+.0==0=0=0==+.',
         },
         {
           name: 'Running 3km (T/T/S)',
-          values: '..+.+.-+.+.+.0==+.-,0==',
+          values: '..+.+.-+.+.+.0==+.-,0==0=0=0==-',
         },
         {
           name: 'Running 5km (T/T/S)',
-          values: '..+.-,-+.+.+.0==+.-,0==',
+          values: '..+.-,-+.+.+.0==+.-,0==0=0=0==-',
         },
         {
           name: 'Running - Before 10:00',
-          values: ',,-,-,-+.-,-,0==-,-,0==',
+          values: ',,-,-,-+.-,-,0==-,-,0==0=0=0==-',
         },
         {
           name: 'Stretch (T/T/S)',
-          values: '..+.+.-+.+.+.0==+.-,0==',
+          values: '..+.+.-+.+.+.0==+.-,0==0=0=0==-',
         },
         {
           name: 'Stretch - Before 10:30',
-          values: ',,-,-,-+.-,+.0==-,-,0==',
+          values: ',,-,-,-+.-,+.0==-,-,0==0=0=0==-',
         },
         {
           name: 'Neck Exercise (S)',
-          values: ',+......-+.....-,,,,,,-',
+          values: ',+......-+.....-,,,,,,-,,,,,,-,',
         },
         {
           name: 'Neck Exercise - Before 11:00',
-          values: ',-,,,,,,--,,,,,-,,,,,,-',
+          values: ',-,,,,,,--,,,,,-,,,,,,-,,,,,,-,',
         },
         {
           name: 'Go to Latina Dance Class MS',
-          values: '/////////////////+.....',
+          values: '/////////////////+......0======',
         },
         {
           name: 'Go to Latina Dance Class',
-          values: '//////////+......+.....',
+          values: '//////////+......+......0======',
         },
         {
           name: 'Get to Latina Dance Class on Time',
-          values: '//////////-,,,,,,-,,,,,',
+          values: '//////////-,,,,,,-,,,,,,0======',
         },
         {
           name: 'Go to Gloria Dance Class',
-          values: '//////////+......+.....',
+          values: '//////////+......+......0======',
         },
         {
           name: 'Write Down Journal Same Day Or Next Morning',
-          values: '-+-+--+-++--+-+-+--+---',
+          values: '-+-+--+-++--+-+-+--+----+------',
+        },
+      ],
+    },
+    {
+      month: 2,
+      habits: [
+        {
+          name: 'Test Habit',
+          values: '',
+        },
+        {
+          name: 'Get out of Bed by 09:00',
+          values: '',
+        },
+        {
+          name: 'No Sweets',
+          values: '',
+        },
+        {
+          name: 'No Unhealthy Food',
+          values: '',
+        },
+        {
+          name: 'Go to Gym (M/W/F)',
+          values: '',
+        },
+        {
+          name: 'Running 3km (T/T/S)',
+          values: '',
+        },
+        {
+          name: 'Running 5km (T/T/S)',
+          values: '',
+        },
+        {
+          name: 'Running - Before 10:00',
+          values: '',
+        },
+        {
+          name: 'Stretch (T/T/S)',
+          values: '',
+        },
+        {
+          name: 'Stretch - Before 10:30',
+          values: '',
+        },
+        {
+          name: 'Neck Exercise (S)',
+          values: '',
+        },
+        {
+          name: 'Neck Exercise - Before 11:00',
+          values: '',
+        },
+        {
+          name: 'Go to Latina Dance Class MS',
+          values: '',
+        },
+        {
+          name: 'Go to Latina Dance Class',
+          values: '',
+        },
+        {
+          name: 'Get to Latina Dance Class on Time',
+          values: '',
+        },
+        {
+          name: 'Go to Gloria Dance Class',
+          values: '',
+        },
+        {
+          name: 'Write Down Journal Same Day Or Next Morning',
+          values: '',
         },
       ],
     },
