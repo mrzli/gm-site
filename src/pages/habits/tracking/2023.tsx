@@ -409,51 +409,104 @@ const data: HabitYearData = {
       habits: [
         {
           name: 'Test Habit',
-          values: '-------------------------',
+          values: '-----------------------------+-',
         },
         {
           name: 'Get out of Bed by 09:00',
-          values: '+-+++++++++++++-++++++-++',
+          values: '+-+++++++++++++-++++++-++++++++',
         },
         {
           name: 'No Sweets',
-          values: '+-+++++--++++++--+++++-++',
+          values: '+-+++++--++++++--+++++-++++++--',
         },
         {
           name: 'No Unhealthy Food',
-          values: '--+++-+-+++-+++-++++++-++',
+          values: '--+++-+-+++-+++-++++++-++++-+++',
         },
         {
           name: 'Go to Gym (M/W/F)',
-          values: '..+.+.+..+.+.+..+.+.0==+.',
+          values: '..+.+.+..+.+.+..+.+.0==+.+.+..+',
         },
         {
           name: 'Running 5km (T/T/S)',
-          values: '+..+.+.+..+.+.+..+.+.+..+',
+          values: '+..+.+.+..+.+.+..+.+.+..+.+.+..',
         },
         {
           name: 'Running - Before 10:00',
-          values: '+..+.+.+..+.+.+..+.+.+..+',
+          values: '+..+.+.+..+.+.+..+.+.+..+.+.+..',
         },
         {
           name: 'Stretch (T/T/S)',
-          values: '+..+.+.+..+.+.+..+.+.+..+',
+          values: '+..+.+.+..+.+.+..+.+.+..+.+.+..',
         },
         {
           name: 'Stretch - Before 10:30',
-          values: '+..+.+.+..+.+.+..+.+.+..+',
+          values: '+..+.+.+..+.+.+..+.+.+..+.+.+..',
         },
         {
           name: 'Neck Exercise',
-          values: ',-,,,,,,-,,,,,,-,,,,,,-,,',
+          values: ',-,,,,,,-,,,,,,-,,,,,,-,,,,,,-,',
         },
         {
           name: 'Neck Exercise - Before 11:00',
-          values: ',-,,,,,,-,,,,,,-,,,,,,-,,',
+          values: ',-,,,,,,-,,,,,,-,,,,,,-,,,,,,-,',
         },
         {
           name: 'Write Down Journal Before 12:00 Next Day',
-          values: '-+++-++-+++-+++++-+++--++',
+          values: '-+++-++-+++-+++++-+++--+++++-+-',
+        },
+      ],
+    },
+    {
+      month: 8,
+      habits: [
+        {
+          name: 'Test Habit',
+          values: '',
+        },
+        {
+          name: 'Get out of Bed by 09:00',
+          values: '',
+        },
+        {
+          name: 'No Sweets',
+          values: '',
+        },
+        {
+          name: 'No Unhealthy Food',
+          values: '',
+        },
+        {
+          name: 'Go to Gym (M/W/F)',
+          values: '',
+        },
+        {
+          name: 'Running 5km (T/T/S)',
+          values: '',
+        },
+        {
+          name: 'Running - Before 10:00',
+          values: '',
+        },
+        {
+          name: 'Stretch (T/T/S)',
+          values: '',
+        },
+        {
+          name: 'Stretch - Before 10:30',
+          values: '',
+        },
+        {
+          name: 'Neck Exercise',
+          values: '',
+        },
+        {
+          name: 'Neck Exercise - Before 11:00',
+          values: '',
+        },
+        {
+          name: 'Write Down Journal Before 12:00 Next Day',
+          values: '',
         },
       ],
     },
