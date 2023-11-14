@@ -629,43 +629,43 @@ const data: HabitYearData = {
         },
         {
           name: 'No Sweets',
-          values: '++++++++++-+',
+          values: '++++++++++-++',
         },
         {
           name: 'No Unhealthy Food',
-          values: '+++++++++++-',
+          values: '+++++++++++-+',
         },
         {
           name: 'Go to Gym (M/W/F)',
-          values: '+.0==+.+.+..',
+          values: '+.0==+.+.+..+',
         },
         {
           name: 'Running 5km (T/T/S)',
-          values: '.+.+..+.+.+.',
+          values: '.+.+..+.+.+..',
         },
         {
           name: 'Running - Before 08:45',
-          values: ',+.+..+.+.+.',
+          values: ',+.+..+.+.+..',
         },
         {
           name: 'Stretch (T/T/S)',
-          values: '.+.+..+.+',
+          values: '.+.+..+.+.+..',
         },
         {
           name: 'Stretch - Before 09:30',
-          values: ',+.+..+.+.+.',
+          values: ',+.+..+.+.+..',
         },
         {
           name: 'Neck Exercise',
-          values: ',,,,-,,,,,,-',
+          values: ',,,,-,,,,,,-,',
         },
         {
           name: 'Neck Exercise - Before 11:00',
-          values: ',,,,-,,,,,,-',
+          values: ',,,,-,,,,,,-,',
         },
         {
           name: 'Write Down Journal Before 12:00 Next Day',
-          values: '+--+-+++---+',
+          values: '+--+-+++---+-',
         },
       ],
     },
